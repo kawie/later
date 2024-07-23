@@ -2,7 +2,7 @@
 
 My first SvelteKit app
 
-This app allows you to take a photo and will then display it. You can take a new one to overwrite it. It won't save it to your camera roll, and should work completely offline (i hope!)
+This app allows you to take a photo and will then display it. You can take a new one to overwrite it, until then it will persist. It won't save it to your camera roll, but to `LocalStorage` on your device – and should work completely offline (i hope!)
 
 ![latest](https://github.com/user-attachments/assets/d036384c-6950-45d4-bb47-a6606953c4a1)
 
