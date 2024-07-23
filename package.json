@@ -8,11 +8,13 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
-		"format": "prettier --plugin-search-dir . --write ."
+		"format": "prettier --plugin-search-dir . --write .",
+		"start": "node build"
 	},
 	"devDependencies": {
 		"@neoconfetti/svelte": "^2.2.1",
 		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/adapter-node": "^5.2.0",
 		"@sveltejs/kit": "next",
 		"@types/cookie": "^0.6.0",
 		"@typescript-eslint/eslint-plugin": "^7.3.1",
